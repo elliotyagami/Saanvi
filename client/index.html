@@ -1,0 +1,32 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="barry-img" src = "/mascot1.png" >
+            <h1>Hi, my name is Saanvi.</h1>
+
+        </div>
+    <input id="speech" type="text">
+    <button id="rec" class="btn">
+        <i class="fa fa-microphone"></i>
+    </button>
+    <div id="spokenResponse" class="spoken-response">
+        <div class="spoken-response__text"></div>
+    </div>
+</div>
+<div class="debug">
+    <div class="debug__btn btn">
+        Debug JSON results
+    </div>
+    <div class="debug__content">
+        <textarea id="response" cols="40" rows="20"></textarea>
+    </div>
+</div>
+<script src="/script.js"></script>
+</body>

@@ -1,0 +1,189 @@
+[
+    {
+        "output": "Number of District Hospitals",
+        "parameters": {
+            "Department": "Hospitals"
+        },
+        "type": "int"
+    },
+    {
+        "output": "Sex Ratio (Number of females per 1000 males)",
+        "parameters": {
+            "Operation": "sex ratio"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Births to women aged 15-19years out of Total births (%)",
+        "parameters": {
+            "Operation": "birth",
+            "Period": " 15-19years",
+            "Gender": "Female"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Mean number of children ever born to women aged 40-49years",
+        "parameters": {
+            "Operation": "birth",
+            "Period": "40-49years",
+            "Gender": "Female"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Current use of family planning methods (%)",
+        "parameters": {
+            "Operation": "family planning"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Current use of any modern method of family planning (%)",
+        "parameters": {
+            "Operation": "modern"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Total unmet need for family planning (%)",
+        "parameters": {
+            "Operation": "unmet family planning"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Prevalence of Anaemia (6-59months) (%)",
+        "parameters": {
+            "Operation": "Anaemia"
+        },
+        "tmp": {
+            "sys.date-period": "6-59months",
+            "Gender": "women"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Prevalence of Severe Anaemia (6-59months) (%)",
+        "parameters": {
+            "Operation": "Anaemia",
+            "Condition": "Severe"
+        },
+        "used": "not",
+        "tmp": {
+            "sys.date-period": "6-59months",
+            "Gender": "women"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Prevalence of Anaemia in pregnant women aged 15-49years (%)",
+        "parameters": {
+            "Operation": "Anaemia",
+            "Condition": "pregnant"
+        },
+        "tmp": {
+            "sys.date-period": "6-59months",
+            "Gender": "women"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Mean age at marriage for girls",
+        "parameters": {
+            "Operation": "marriage",
+            "Gender": "Female"
+        },
+        "type": "int"
+    },
+    {
+        "output": "Mean age at marriage for boys",
+        "parameters": {
+            "Operation": "marriage",
+            "Gender": "Male"
+        },
+        "type": "int"
+    },
+    {
+        "output": "Currently married women married below 18years of age (%)",
+        "parameters": {
+            "Operation": "marriage",
+            "Gender": "Female",
+            "Period": "18years"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Currently married men married below 21years of age (%)",
+        "parameters": {
+            "Operation": "marriage",
+            "Gender": "Male",
+            "Period": "21years"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Currently married men married below 21years of age (%)",
+        "parameters": {
+            "Operation": "marriage",
+            "Gender": "Male",
+            "Period": "21years"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Villages with Sub-Health Centres within 3km (%)",
+        "parameters": {
+            "Department": "Sub-Health Centres"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Villages with Primary Health Centre within 10km (%)",
+        "parameters": {
+            "Department": "Primary Health Centre"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "PHCs functioning on a 24x7hours basis (%)",
+        "parameters": {
+            "Department": "Primary Health Centre"
+        },
+        "tmp": {
+            "Period": "24x7hours"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Primary Gross Enrolment Ratio (%)",
+        "parameters": {
+            "Operation": "Enrolment"
+        },
+        "tmp": {
+            "Department": "Primary Schools",
+            "Operation": "Gross Enrolment"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Primary Net Enrolment Ratio (%)",
+        "parameters": {
+            "Operation": "Net Enrolment Ratio"
+        },
+        "tmp": {
+            "Department": "Primary Schools"
+        },
+        "type": "percent"
+    },
+    {
+        "output": "Births to women aged 15-19years out of Total births (%)",
+        "parameters": {
+            "Operation": "birth"
+        },
+        "tmp": {
+            "period": "15-19years"
+        },
+        "type": "percent"
+    }
+]
